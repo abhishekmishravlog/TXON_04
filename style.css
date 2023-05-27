@@ -1,0 +1,340 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(32, 32, 32);
+}
+
+.photo1 {
+    position: absolute;
+    top: 35%;
+    right: 13%;
+}
+
+.photo1 img {
+    width: 230px;
+    height: 300px;
+    box-shadow: 0 0 10px aqua,
+        0 0 20px aqua;
+
+}
+
+.container h1{
+    cursor: pointer;
+    font-size: 50px;
+    color: rgb(249, 246, 246);
+}
+
+.container span {
+    color: aqua;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-top: 20px;
+    padding-right: 4%;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px black,
+    1px  1px 10px white;
+    background-color: rgb(22, 22, 22);
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 12px 12px;
+    border: 2px solid aqua;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(43, 59, 59);
+    color: rgb(168, 248, 248);
+    box-shadow: 0px 1px 7px aqua;
+
+
+}
+
+.intro {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+}
+
+.intro h1 {
+    color: white;
+    margin: 30px 0px 30px;
+    font-size: 65px;
+}
+
+.intro h4 {
+    color: rgb(205, 248, 248);
+    font-size: 25px;
+}
+
+.intro span {
+    color: aqua;
+}
+
+.intro h3 {
+    color: white;
+    font-size: 30px;
+}
+
+.formm form input:first-child {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 24px;
+    max-width: 100%;
+}
+
+.formm form input:last-child {
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 14px;
+    background-color: aqua;
+    box-shadow: 0px 0px 3px aqua,
+        0px 0px 5px aqua;
+    outline: none;
+}
+
+.about{
+    
+    padding: 25px 20px;
+    width: 98%;
+    background-color: black;
+    color: white;
+    
+}
+.abouttxt{
+    width: 500px;
+    padding-left: 34%;
+    padding-right: 35%;
+    border: 2px solid aqua;
+
+
+}
+.abouttxt h2{
+    font-size: 55px;
+    padding-left: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.abouttxt p{
+   /* padding: 0px 635px 0px 0px; */
+  font-size: 23px;
+  color: rgb(93, 248, 248);
+  padding-left: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.abouttxt h5{
+    font-size: 38px;
+    padding-left: 83px;
+    text-shadow: 1px 1px 3px aqua,
+    1px 1px 4px aqua,
+    1px 1px 6px rgb(100, 247, 247);
+}
+.abouttxt button{
+ 
+    color: white;
+    background-color: rgb(1, 34, 34);
+    margin:20px 165px;
+    border: 2px solid aqua;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+.abouttxt button:hover {
+    background-color: rgb(43, 59, 59);
+    color: rgb(168, 248, 248);
+    box-shadow: 0px 1px 7px aqua;
+    transform: scale(1.1);
+
+
+}
+
+.abouttxt span{
+    color: aqua;
+}
+
+
+
+
+
+.skill{
+    background-color: rgb(64, 62, 62);
+    padding: 30px 30px;
+    width: 97%;
+    height: 500px;
+}
+
+.head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 33px;
+    color: white;
+    padding-bottom: 15px;
+}
+.head span{
+    color: aqua;
+}
+
+.skills{
+  
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.skill1{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 15px 15px;
+    background-color: rgb(45, 44, 44);
+    width: 200px;
+    color: white;
+    box-shadow: 5px 5px 3px black;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.skill1 h3{
+    padding-left: 40px;
+}
+.skill2{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(45, 44, 44);
+    margin: 15px 15px;
+    box-shadow: 5px 5px 3px black;
+    width: 200px;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill2 h3{
+    padding-left: 40px;
+}
+
+.skill3{
+    border: 2px solid black;
+    background-color: rgb(45, 44, 44);
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px black;
+    margin: 15px 15px;
+    width: 200px;
+    color: white;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.skills i{
+
+    font-size: 34px;
+    color: aqua;
+}
+
+.skills i span{
+
+    font-size: 20px;
+    color: white;
+    
+}
+
+
+
+
+
+
+.contact{
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    height:600px;
+    padding: 1px;
+    color: white;
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+
+}
+
+
+.heading h1{
+    font-size: 80px;
+}
+.heading span{
+    color: aqua;
+}
+.skk img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.social img{
+    filter: invert(70%);
+}
+.social img:hover{
+    transform: scale(1.3);
+    transition-duration: 0.2s;
+    filter: invert(100%);
+    cursor: pointer;
+    box-shadow: 0 0 10px red;
+}
+
+.skk{
+    display: flex;
+    flex-direction: column;
+}
+
+.contme h2{
+    position: relative;
+    top: -60px;
+    right: -60px;
+
+}
+.contme h3{
+    position: relative;
+    top: -65px;
+    right: -60px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+
+}
